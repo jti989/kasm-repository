@@ -21,6 +21,14 @@
       "available_tags": [
         "develop"
       ]
+    },
+    {
+      "version": "1.18.x",
+      "image": "kasmweb/freecad:develop",
+      "uncompressed_size_mb": 3200,
+      "available_tags": [
+        "develop"
+      ]
     }
   ]
 }
