@@ -1,3 +1,4 @@
 1.0
 1.1
+copilot_create-workspaces-freecad-libreoffice-firefox
 feature_dependency_update
