@@ -1,9 +1,11 @@
 import { useState, useEffect, useMemo } from 'react'
 import Head from 'next/head'
+import { useRouter } from 'next/router'
 import Workspace from '../components/Workspace'
 import styles from '../styles/Home.module.css'
 
 export default function Home({ searchText }) {
+  const router = useRouter()
   const [workspaces, setWorkspaces] = useState(null)
   const [versions, setVersions] = useState(null)
   const [version, setVersion] = useState(null)
@@ -71,7 +73,7 @@ export default function Home({ searchText }) {
       <Head>
         <title>Kasm Workspaces</title>
         <meta name="description" content="List of workspaces for Kasm Webspaces" />
-        <link rel="icon" href="/favicon.ico" />
+        <link rel="icon" href={`${router.basePath}/favicon.ico`} />
       </Head>
 
 

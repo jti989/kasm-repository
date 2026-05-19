@@ -143,7 +143,7 @@ Once `Page build and deployment` is finished go back to Settings / Pages and you
 ![install-registry-800](https://user-images.githubusercontent.com/5698566/230379178-4b2a08c7-3ae1-4000-88a0-ae4b8ab17892.gif)
 
 > **Note**
-> If you copy the url from the address bar instead of clicking the button, be sure to remove the branch version from the URL when adding to workspaces, otherwise it wont work.
+> Use the **Workspace Registry Link** button and paste that URL into Kasm as-is. It includes the correct branch/version path for the generated `list.json`.
 
 1. Click on the **Workspace Registry Link** button, this will put the correct url in your clipboard.
 2. Go to your Kasm Workspaces instance.
