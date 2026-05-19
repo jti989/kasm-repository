@@ -1,4 +1,5 @@
 1.0
 1.1
 copilot_create-workspaces-freecad-libreoffice-firefox
+copilot_fix-registry-not-working-correctly
 feature_dependency_update
