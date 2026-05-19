@@ -11,7 +11,7 @@ const nextConfig = {
     contactUrl: 'https://none.example.com',
   },
   reactStrictMode: true,
-  basePath: '/kasm-registry/1.1',
+  basePath: '/kasm-registry',
   trailingSlash: true,
   images: {
     unoptimized: true,
