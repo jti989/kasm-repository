@@ -6,6 +6,7 @@ import { NotificationManager } from 'react-notifications';
 export default function Header({ searchText, changeSearch }) {
 
   const copyToClipboard = () => {
+    const listUrl = typeof window !== 'undefined' ? `${window.location.origin}${router.basePath}/` : process.env.listUrl
     var textField = document.createElement('textarea')
     textField.innerText = listUrl
     document.body.appendChild(textField)
@@ -14,7 +15,6 @@ export default function Header({ searchText, changeSearch }) {
     textField.remove()
     NotificationManager.info('URL successfully copied to clipboard', 'Copy URL', 4000);
   }
-  const listUrl = process.env.listUrl;
   const router = useRouter();
   const getLink = (path) => `${router.basePath}${path}`;
 

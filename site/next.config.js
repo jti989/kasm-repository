@@ -6,12 +6,12 @@ const nextConfig = {
   env: {
     name: 'Jans Kasm Repo',
     description: 'Yes.',
-    icon: '/img/logo.svg',
+    icon: '/favicon.ico',
     listUrl: 'https://jti989.github.io/kasm-repository/',
     contactUrl: 'https://none.example.com',
   },
   reactStrictMode: true,
-  basePath: '/kasm-registry/1.0',
+  basePath: '/kasm-repository/1.0',
   trailingSlash: true,
   images: {
     unoptimized: true,
