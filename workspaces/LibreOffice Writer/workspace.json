@@ -1,0 +1,27 @@
+{
+  "description": "LibreOffice Writer is a free, open-source word processor with extensive formatting and document creation features, compatible with Microsoft Word formats.",
+  "docker_registry": "https://index.docker.io/v1/",
+  "image_src": "libreoffice-writer.png",
+  "run_config": {
+    "hostname": "kasm"
+  },
+  "categories": [
+    "Office",
+    "Productivity"
+  ],
+  "friendly_name": "LibreOffice Writer",
+  "architecture": [
+    "amd64",
+    "arm64"
+  ],
+  "compatibility": [
+    {
+      "version": "1.17.x",
+      "image": "kasmweb/libreoffice:develop",
+      "uncompressed_size_mb": 2500,
+      "available_tags": [
+        "develop"
+      ]
+    }
+  ]
+}
