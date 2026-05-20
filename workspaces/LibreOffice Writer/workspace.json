@@ -17,7 +17,7 @@
   "compatibility": [
     {
       "version": "1.17.x",
-      "image": "kasmweb/libreoffice:develop",
+      "image": "kasmweb/libre-office:develop",
       "uncompressed_size_mb": 2500,
       "available_tags": [
         "develop"
@@ -25,7 +25,7 @@
     },
     {
       "version": "1.18.x",
-      "image": "kasmweb/libreoffice:develop",
+      "image": "kasmweb/libre-office:develop",
       "uncompressed_size_mb": 2500,
       "available_tags": [
         "develop"
