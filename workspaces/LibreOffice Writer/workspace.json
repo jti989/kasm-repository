@@ -17,18 +17,18 @@
   "compatibility": [
     {
       "version": "1.17.x",
-      "image": "kasmweb/libre-office:develop",
+      "image": "kasmweb/libre-office:1.17.0-rolling-daily",
       "uncompressed_size_mb": 2500,
       "available_tags": [
-        "develop"
+        "1.17.0-rolling-daily"
       ]
     },
     {
       "version": "1.18.x",
-      "image": "kasmweb/libre-office:develop",
+      "image": "kasmweb/libre-office:1.18.0-rolling-daily",
       "uncompressed_size_mb": 2500,
       "available_tags": [
-        "develop"
+        "1.18.0-rolling-daily"
       ]
     }
   ]
