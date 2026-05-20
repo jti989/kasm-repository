@@ -3,4 +3,5 @@
 copilot_create-workspaces-freecad-libreoffice-firefox
 copilot_fix-freecad-image-pull
 copilot_make-available-for-1-18
+copilot_update-applications-and-remove-chromium
 feature_dependency_update
